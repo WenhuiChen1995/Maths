@@ -1,1 +1,138 @@
-I am Wenhui Chen
+
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/lib/jquery/jquery-3.1.1.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/theme.js"></script>
+	<script>
+	 $(document).ready(function(){
+	     var th=themeSetter();
+	     $("#theme").attr("href",th.themeCSSPath());
+	 });
+	</script>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/basic.css"/>
+	<link id="theme" rel="stylesheet" href="css/style-1.css"/>
+	<title>Ronggang Shi's Homepage</title>
+    </head>
+    <body>
+	<div class="fixed-float-nav">
+	    <div class="menu overlay-container large-icon">
+		<div class="submenu overlay-item">
+		    <div class="submenu-up">
+			<div class="menu-item flex-col align-center"><a href="#sec-top">Personal Information</a></div>
+			<div class="menu-item flex-col align-center"><a href="#sec-papers">Papers</a></div>
+			    <div class="menu-item flex-col align-center"><a href="#sec-research">Research & Grants</a></div>
+			<div class="menu-item flex-col align-center"><a href="#sec-employment">Employment & Education</a></div>
+		    </div>
+		</div>
+		<div class="overlay-item button1 flex-col">
+		    <div class="ui-button fill-up flex-col center-center">
+			<i class="fa fa-plus fa-lg fa-fw" aria-hidden="true" aria-label="open menu"></i>
+		    </div>
+		</div>
+		<div class="overlay-item button2 flex-col">
+		    <div class="ui-button fill-up flex-col center-center">
+			<i class="fa fa-minus fa-lg fa-fw" aria-hidden="true" aria-label="collapse menu"></i>
+		    </div>
+		</div>
+	    </div>
+	</div>
+	<div  id="sec-top" class= "page">
+	    <div class="header">
+		    <h1>Ronggang Shi (石荣刚)</h1>
+		<p>Associate Professor at Shanghai Center for Mathematical
+		    Sciences Fudan University<br/></p>
+	    </div>
+	    <div class= "main">
+		<div>
+		    <p><b>Email:</b> ronggang "at" fudan.edu.cn<br/></p>
+		    <p><b>Mailing Address:</b></p>
+		    <div class="flex-row">
+			<p class="flex-item">No.2005 Songhu Road <br/>  Fudan University Jiangwan Campus <br/>
+			    Shanghai Center for Mathematical Sciences<br/>
+			    Shanghai, 200438, China</p>
+			<p class="flex-item">上海数学中心<br/>
+				复旦大学江湾校区 <br/>
+			    淞沪路2005号<br/>
+			    上海，200438，中国</p>
+		    </div>
+		</div>
+
+		
+		<h2 id="sec-papers">Papers</h2>
+		<ol class="biblio">
+			<li class="biblio"> R. Prohaska, C. Sert, R. Shi, <i> Expanding measures: Random walks and rigidity on homogeneous spaces, </i> 
+				https://arxiv.org/abs/2104.09546  </li>
+			<li class="biblio"> J. An, L. Guan, A. Marnat, R.  Shi, <i> Divergent trajectories on products of homogeneous spaces, </i> 
+				<b> Adv. Math. </b> 390 (2021), Paper No. 107910, 33 pp.   </li>
+			<li class="biblio"> R. Shi, <i> Central limit theorem and cohomological equation on homogeneous spaces, </i>
+				<b> Israel J. Math. </b> 242 (2021), no. 2, 891–931.   </li>
+			<li class="biblio"> R. Shi, <i> Expanding cone and applications to homogeneous dynamics, </i> 
+				<b> Int. Math. Res. Not. </b> IMRN 2021, no. 9, 7060–7095.    </li>
+			<li class="biblio"> R. Rühr, R. Shi, <i> Quantitative multiple pointwise convergence and effective multiple correlations, </i>
+				<b> J. Differential Equations </b> 285 (2021), 1–16.   </li>
+			<li class="biblio">  E. Nesharim, R. Rühr, R. Shi, <i>  Metric Diophantine approximation with congruence conditions, </i>
+				<b> Int. J. Number Theory </b> 16 (2020), no. 9, 1923–1933. </li>
+			<li class="biblio">  (with L. Guan)<i>  Hausdorff dimension of divergent trajectories on homogeneous space, </i> 
+				<b> Compos. Math.  </b> 156 (2020), no. 2, 340–359. </li>
+			<li class="biblio"> (with L. Liao, O.N. Solan and N. Tamam)<i>  Hausdorff dimension of weighted singular vectors in R^2, </i> 
+				<b> J. Eur. Math. Soc. (JEMS) </b> 22 (2020), no. 3, 833–875.   </li>
+		    <li class="biblio"> <i>  Pointwise equidistribution for one parameter diagonalizable group action on homogeneous space,</i>
+			    <b> Trans, Amer. Math. Soc. </b> 373 (2020), no. 6, 4189–4221. </li>
+			<li class="biblio">  (with M. Einsiedler)<i>  Measure rigidity for solvable group actions in the space of lattices, </i>
+				<b> Monatsh. Math. </b>189 (2019), no. 3, 421–428.  </li>
+		    <li class="biblio"> (with K. Fraczek and C. Ulcigrai)<i>  Genericity on curves and applications: pseudo integrable billiards, Eaton lenses and gap distributions, </i>
+			    <b> J. Mod. Dyn. </b> 12 (2018), 55–122. </li>
+		    <li class="biblio">(with D. Kleinbock, B. Weiss) <i> Pointwise equidistribution with an error rate and with respect to unbounded functions, </i>
+			   <b>  Math. Ann. </b>367 (2017), no. 1-2, 857-879.  </li>
+		    <li class="biblio">(with B. Weiss)<i>  Invariant measures for solvable groups and Diophantine approximation, </i>
+			   <b>  Israel J. Math. </b> 219 (2017), no. 1, 479-505. </li>
+		    <li class="biblio">(with D. Kleinbock, G. Tomanov)<i>  S-adic version of Minkowski’s geometry of numbers and Mahler’s compactness criterion, </i>
+			  <b>   J. Number Theory </b> 174 (2017), 150-163. </li>
+		    <li class="biblio">(with J. Tseng)<i>  Simultaneous dense and nondense orbits and the space of lattices, </i> 
+			    <b> Internat. Math. Res. Notices </b> 2015, no. 21, 11276-11288.</li>
+		    <li class="biblio"><i> Convergence of measures under diagonal actions on homogeneous spaces,  </i>
+			    <b> Adv. Math. </b> 229 (2012), no. 3, 1417–1434.</li>
+		    <li class="biblio"><i> Equidistribution of expanding measures with local maximal dimension and Diophantine approximation, </i> 
+			    <b> Monatsh. Math. </b> 165 (2012), no. 3-4, 513–541.</li>
+		</ol>
+		    
+		    
+		<h2 id="sec-research">Reseach</h2>
+		<p> homogeneous dynamics, ergodic theory, number theory, fractal geometry </p>
+		    
+		    <h2 id="sec-grants">    Grants </h2>
+		    <ul class= "plain">
+                  <li>  2013.1-2015.12: NSFC Young Scientists Fund, Grant No. 11201388, 
+Principal Investigator. </li>
+			    <li> 2013.1-2016.12: NSFC General Program, Grant No. 11271278, Participant. </li>
+			    <li> 2019.1-2022.12: NSFC General Program, Grant No. 11871158, Principal Investigator. </li> 
+			    </ul>
+
+		<H2 id="sec-employment">Employment</h2>
+		<ul class= "plain"><li>Associate Professor, SCMS Fudan University, 2020/06 - present</li>
+			<li> Young Investigator, SCMS Fudan University, 2017/07 - 2020/06 </li>
+		    <li>Associate Professor, Xiamen University, 2015/07- 2017/06.</li>
+		     <li>Assistant Professor, Xiamen University, 2009/07- 2015/07.</li>	    
+		</ul>
+		    
+		
+	    
+		    
+		    
+		<h2 id="sec-education">Education</h2>
+		<ul class= "plain"><li>Ph.D. Mathematics, The Ohio State University, 2005/06–2009/06, Advisor:
+		    Manfred Einsiedler</li>
+		    <li>B.S. Mathematics, Zhejiang University (浙江大学), 2001/09–2005/06.</li>
+			<li>Postdoc, Tel Aviv University，2013/10-2014/12</li>
+				<li>  Postdoc, Mathematical Sciences Research Institute/Berkeley,  2015/01-2015/05 </li>
+		</ul>
+	    </div>
+	</div>
+    </body>
+</html>
+
