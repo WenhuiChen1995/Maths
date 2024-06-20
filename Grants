@@ -13,6 +13,7 @@ body p {
 </head>
 
 <body>
+<p><strong>Grants </strong></p>
 
 	
 
@@ -25,6 +26,7 @@ body p {
 </ul>
 	
 
- <p><strong><a href="index.html">Return to Home</a></strong></p>
+<hr>
+<p><strong><a href="index.html">Return to Home</a></strong></p>
 </body>
 </html>
