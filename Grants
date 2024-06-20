@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Grants</title>
+<title>Funds</title>
 <style type="text/css">
 body p {
 	font-family: Arial, Helvetica, sans-serif;
@@ -16,17 +16,13 @@ body p {
 
 	
 
-<ol>	
+ <ul class= "plain">	
 <li style="margin-bottom: 1em;"> 2024/01 - 2026/12: National Natural Science Foundation of China (国自然--青年基金), Grant No. 12301270. </li>
 <li style="margin-bottom: 1em;"> 2024/01 - 2026/12: GZ Basic and Applied Basic Research Topic (广州市基础与应用基础研究--青年博士启航), Grant No. 2024A04J0016. </li>
 <li style="margin-bottom: 1em;"> 2021/06 - 2022/06: China Postdoctoral Science Foundation (博士后基金--特别资助), Grant No. 2021T140450. </li>
 <li style="margin-bottom: 1em;"> 2021/06 - 2022/06: China Postdoctoral Science Foundation (博士后基金--面上资助), Grant No. 2021M692084. </li> 
 <li style="margin-bottom: 1em;"> 2017/10 - 2020/09: Sächsisches Landesgraduiertenstipendium (德国萨克森洲--博士资助), Deutschland. </li>
-
-	
-</div>
-<div>
-<hr>
+</ul>
 	
 
  <p><strong><a href="index.html">Return to Home</a></strong></p>
